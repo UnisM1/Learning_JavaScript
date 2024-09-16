@@ -9,8 +9,7 @@
 // a + b (should print 10)
 // a * b (should print 24)
 
-
-// == CHALLENGE == 
+// == CHALLENGE ==
 
 // Can you find the problem in the following program? Make the fix, so the code prints "Hello Makers" when typed into the node REPL.
 
