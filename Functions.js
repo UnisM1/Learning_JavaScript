@@ -45,3 +45,9 @@ getName(); // returns undefined
 // Your colleague is trying to call the function sayHello and print its result using console.log — however, it doesn't work as expected: why? Make the fix so it prints the return value of the function, as expected.
 
 // console.log(sayHello); lets take this over to sayHello.js file
+
+// == Challenge ==
+
+// Define a function add (in a file add.js) which takes two arguments and return their sum.
+// Define a function multiply (in a file multiply.js) which takes two arguments and return their product.
+// From node, require and call the functions add and multiply to calculate and print the following: 2 * (4 + 4). You should get the correct result (16).
