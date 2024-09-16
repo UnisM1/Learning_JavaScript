@@ -34,9 +34,14 @@ getName(); // returns undefined
 
 // == Exercise ==
 
+//Complete in the file: sayHello.js
 // Define (in a file sayHello.js) the function sayHello, which returns the string 'Hello'.
 
 // Require and call that function in node - you should get the following result:
 // > sayHello();
 // 'Hello'
 // undefined
+
+// Your colleague is trying to call the function sayHello and print its result using console.log — however, it doesn't work as expected: why? Make the fix so it prints the return value of the function, as expected.
+
+// console.log(sayHello); lets take this over to sayHello.js file
