@@ -21,7 +21,7 @@ console.log("Hello - I am a file!");
 const greeting = "Hello";
 const my_name = "Unis";
 // console.log(greeting + ". My name is " + my_name + "!"); this way is fine too.
-console.log(`${greeting}. My name is ${my_name}`)
+console.log(`${greeting}. My name is ${my_name}`) // This method of contacatenation uses something called template literals
 // 2. run the program in terminal.
 
 // node hello.js
