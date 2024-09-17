@@ -28,22 +28,21 @@ const simpleCalculation = doubleNumber;
 // What do you think will be printed to the console? Check if you are right by running the file again with node functionsAsValues.js
 
 const uppercaseMessage = (message) => {
-    return message.toUpperCase();
+  return message.toUpperCase();
 };
 
 const lowercaseMessage = (message) => {
-    return message.toLowerCase();   
+  return message.toLowerCase();
 };
 
 // This function accepts as arguments a string message, and a function.
 // It then calls the given function to do its job.
 const transform = (message, transformFunction) => {
-    return transformFunction(message);
+  return transformFunction(message);
 };
 
 transform("hello", uppercaseMessage);
 transform("HELLO", lowercaseMessage);
-
 
 // == CHALLENGE ==
 
@@ -58,26 +57,26 @@ transform("HELLO", lowercaseMessage);
 
 // My notifyByEmail function
 const notifyByEmail = (email) => {
-    return `Email sent to ${email}.`;
+  return `Email sent to ${email}.`;
 };
 
 // My notifyByText function
 const notifyByText = (phoneNumber) => {
-    return `Text sent to ${phoneNumber}.`;
+  return `Text sent to ${phoneNumber}.`;
 };
 
 // My notify function
 const notify = (str, notifyByFunction) => {
-    return notifyByFunction(str);
+  return notifyByFunction(str);
 };
 
 module.exports = {
-    uppercaseMessage,
-    lowercaseMessage,
-    transform,
-    notifyByEmail,
-    notifyByText,
-    notify
+  uppercaseMessage,
+  lowercaseMessage,
+  transform,
+  notifyByEmail,
+  notifyByText,
+  notify,
 };
 
 // uppercaseMessage, lowercaseMessage, transform, notifyByEmail, notifyByText, notify
