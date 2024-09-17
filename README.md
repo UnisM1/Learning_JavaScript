@@ -8,4 +8,4 @@ in Python.
 
 I will also be learning new concepts such as asynchronocity and promises. This week will also
 be fundamental in teaching me how to learn a programming language by noticing similar concepts and applying
-a methodical approach to tackling said programming languages's differing qualities such as syntax or new concepts
+a methodical approach to tackling said programming languages's differing qualities such as syntax or new concepts.
