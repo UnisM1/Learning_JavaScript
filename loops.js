@@ -1,6 +1,6 @@
 // == Learning Objective: Learn to use loops ==
 
-const fizzBuzz = require("./conditionals")
+const fizzBuzz = require("./conditionals");
 
 // JavaScript has the same basic kinds of loops than in other languages, such as while and for:
 
@@ -16,7 +16,7 @@ const fizzBuzz = require("./conditionals")
 //     console.log(i);
 
 //     i += 1;
-// } 
+// }
 
 // == Exercise ==
 
@@ -54,13 +54,13 @@ const fizzBuzz = require("./conditionals")
 // 7
 
 const fizzBuzzUntil = (num) => {
-    for (let i = 1; i <= num; i++) {
-        if (fizzBuzz(i) === i) {
-            console.log(i);
-        } else {
-            console.log(fizzBuzz(i));
-        }
+  for (let i = 1; i <= num; i++) {
+    if (fizzBuzz(i) === i) {
+      console.log(i);
+    } else {
+      console.log(fizzBuzz(i));
     }
-}
+  }
+};
 
-module.exports = fizzBuzzUntil
+module.exports = fizzBuzzUntil;

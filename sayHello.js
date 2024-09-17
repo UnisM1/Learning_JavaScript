@@ -1,8 +1,8 @@
 const sayHello = () => {
-    return 'Hello';
-}
+  return "Hello";
+};
 
-module.exports = sayHello
+module.exports = sayHello;
 
 // Your colleague is trying to call the function sayHello and print its result using console.log — however, it doesn't work as expected: why? Make the fix so it prints the return value of the function, as expected.
 
@@ -10,7 +10,7 @@ module.exports = sayHello
 
 console.log(sayHello());
 
-// == Exercise == 
+// == Exercise ==
 // Modify the previous function sayHello so it accepts one argument, and calling sayHello('Sarah') displays a personalised message:
 
 // > sayHello('Sarah');

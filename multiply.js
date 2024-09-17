@@ -2,7 +2,7 @@
 // From node, require and call the functions add and multiply to calculate and print the following: 2 * (4 + 4). You should get the correct result (16).
 
 const multiply = (a, b) => {
-    return a * b;
-}
+  return a * b;
+};
 
-module.exports = multiply
+module.exports = multiply;
